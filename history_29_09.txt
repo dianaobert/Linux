@@ -1,0 +1,33 @@
+   0 whoami
+   1 cd /
+   2 ls
+   3 cd /home
+   4 mkdir animals planets humans
+   5 ls
+   6 cd animals
+   7 mkdir dogs cats fish
+   8 ls
+   9 cd
+  10 touch /home/animals/cats/garfield /home/animals/dogs/pluto /home/animals/fish/nemo 
+  11 tree /home/
+  12 cd /opt
+  13 ls
+  14 touch Mercury Venus Mars Jupiter
+  15 ls
+  16 cd /tmp
+  17 touch adam evA
+  18 ls
+  19 cd
+  20 mv /opt/Mercury /home/planets
+  21 mv /opt/Mars /home/planets
+  22 mv /opt/Venus /home/planets
+  23 mv /opt/Jupiter /home/planets
+  24 ls /home/planets
+  25 cp /tmp/adam /home/humans
+  26 mv /tmp/evA /home/humans/eve
+  27 ls /home/humans
+  28 history
+  29 ls /home
+  30 tree /home
+  31 history
+  32 history > history_29_09.txt
